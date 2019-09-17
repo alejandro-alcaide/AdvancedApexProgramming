@@ -1,0 +1,7 @@
+Look for a change in Opportunity status.
+
+If the Opportunity has no OpportunityContactRole objects, check if a Task to create a 
+primary Contact already exists.
+    If it does, exit.
+    If not, create the Task and then exit.
+
